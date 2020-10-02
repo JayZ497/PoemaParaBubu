@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(135, 133, 162, 0.9)), to(rgba(135, 133, 162, 0.3)));
+  background: linear-gradient(to left, rgba(135, 133, 162, 0.9), rgba(135, 133, 162, 0.3));
+  height: 100vh;
+  font-family: 'Sansita Swashed', cursive;
+  color: #363636;
+}
+
+main {
+  height: 100%;
+}
+
+.text-secondary {
+  color: #ffc7c7 !important;
+}
+
+.love-letter {
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  place-content: center;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.custom-card {
+  background: white;
+  height: 55%;
+  width: 75%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 10px 30px rgba(158, 175, 194, 0.632);
+          box-shadow: 0 10px 30px rgba(158, 175, 194, 0.632);
+  display: -ms-grid;
+  display: grid;
+}
+
+.cover-card {
+  -ms-grid-rows: 40% 60%;
+      grid-template-rows: 40% 60%;
+}
+
+.cover-card_image {
+  width: 50%;
+  border-radius: 100%;
+  border: 8px #ffe2e2 solid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.cover-card_content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7% 3%;
+}
+
+.cover-card_content h1, .cover-card_content h3 {
+  text-align: center;
+}
+
+.cover-card_content h1 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.cover-card_content h3 {
+  font-size: 1.3rem;
+}
+
+.cover-card_content hr {
+  border: 0;
+  border-top: 6px;
+  border-style: dotted;
+  width: 15%;
+  border-color: #ffc7c7;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.title {
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+}
+
+.title_content {
+  padding: 0 5% !important;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7% 3%;
+}
+
+.title_content h1, .title_content h3 {
+  text-align: center;
+}
+
+.title_content h1 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.title_content hr {
+  border: 0;
+  border-top: 6px;
+  border-style: dotted;
+  width: 15%;
+  border-color: #ffc7c7;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.title_image {
+  background: url("../img/title.png") center;
+  background-size: cover;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 80%;
+  height: 90%;
+  -webkit-box-shadow: 0 0 8px 10px white inset;
+          box-shadow: 0 0 8px 10px white inset;
+}
+
+.text-card {
+  position: relative;
+  place-items: center;
+  text-align: center;
+  padding: 0 2%;
+}
+
+.text-card p {
+  line-height: 2.5;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.text-card img {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-card .special {
+  font-size: 0.8rem;
+  line-height: 2.9;
+}
+/*# sourceMappingURL=main.css.map */
